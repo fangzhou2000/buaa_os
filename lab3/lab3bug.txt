@@ -1,0 +1,3 @@
+load_icode_mapper 要用page_lookup看va这一页有没有，注意u_int 不要轻易用减法
+load_icode page_insert要设置可写
+sched_yeild 不要换curenv因为env_run里换了
